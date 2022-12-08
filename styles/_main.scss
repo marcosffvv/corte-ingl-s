@@ -1,0 +1,38 @@
+.m{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 247, 247);
+
+    &__galery{
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(247, 247, 247);
+
+        &--tarjeta{
+            width: 300px;
+            height: 300px;
+            margin: 1%;
+            background-color: white;
+
+            img{
+                width: 300px;
+                height: 150px;
+            }
+            h2{
+                font-size: 20px;
+                padding: 5px;
+            }
+            p{
+                font-size: 10px;
+                padding: 5px;
+                color: grey;
+            }
+        }
+    }
+
+    &__texto{
+        background-color: rgb(247, 247, 247);
+    }
+}
