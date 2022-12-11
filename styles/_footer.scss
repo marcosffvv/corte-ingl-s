@@ -1,0 +1,32 @@
+.fondito{
+    width: 1000px;
+    height: 60px;
+    border: 2px solid green;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    &__barra{
+        font-size: 60px;
+        height: 100%;
+        background: rgb(103, 181, 0);
+        animation: progreso 5s linear infinite;
+    }
+
+}
+
+@keyframes progreso {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+    
+
+
+
+    
