@@ -13,13 +13,16 @@
   justify-content: space-between;
   background-color: rgb(247, 247, 247);
 }
+.navbar__logo {
+  margin-left: 5%;
+}
 .navbar__logo img {
   padding: 10px;
   width: 200px;
   height: 40px;
 }
 .navbar__logitos {
-  margin-right: 15%;
+  margin-right: 5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -31,6 +34,7 @@
   flex-direction: row;
   padding: 10px;
   align-items: center;
+  border-right: 1px solid rgb(103, 181, 0);
 }
 .navbar__logitos--box img {
   width: 10px;
@@ -38,29 +42,34 @@
   padding-right: 5px;
 }
 .navbar__logitos--box a {
-  color: black;
-  font-size: 12px;
+  color: rgb(103, 181, 0);
+  font-size: 14px;
 }
 
 .menu {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .menu__box1 {
   display: flex;
   flex-direction: column;
   background-color: rgb(103, 181, 0);
+  justify-content: center;
 }
 .menu__box1 a {
   color: black;
-  font-size: 11px;
+  font-size: 15px;
+}
+.menu__box1 button {
+  border-color: rgb(103, 181, 0);
 }
 .menu__box2--lista {
   display: flex;
   flex-direction: row;
 }
 .menu__box2--lista li {
-  font-size: 11px;
+  font-size: 17px;
   padding: 10px;
 }
 .menu__box2--lista a {
@@ -70,6 +79,7 @@
 .m {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: rgb(247, 247, 247);
 }
 .m__galery {
@@ -80,14 +90,38 @@
   background-color: rgb(247, 247, 247);
 }
 .m__galery--tarjeta {
-  width: 300px;
-  height: 300px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 350px;
   margin: 1%;
   background-color: white;
 }
+.m__galery--tarjeta--1 {
+  display: flex;
+  flex-direction: column;
+}
+.m__galery--tarjeta--2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 10%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.m__galery--tarjeta--2 button {
+  background-color: white;
+  color: rgb(103, 181, 0);
+  border: 1px solid rgb(103, 181, 0);
+  padding: 10px;
+}
+.m__galery--tarjeta--2 h3 {
+  font-size: 35px;
+  color: rgb(103, 181, 0);
+}
 .m__galery--tarjeta img {
-  width: 300px;
-  height: 150px;
+  width: 400px;
+  height: 200px;
 }
 .m__galery--tarjeta h2 {
   font-size: 20px;
@@ -99,5 +133,37 @@
   color: grey;
 }
 .m__texto {
-  background-color: rgb(247, 247, 247);
+  margin-top: 2%;
+  width: 70%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+}
+.m__texto h4 {
+  font-size: 20px;
+  padding: 10px;
+}
+.m__texto p {
+  color: grey;
+  padding: 10px;
+}
+.m__iconitos {
+  display: flex;
+  margin-top: 6%;
+}
+.m__iconitos ul {
+  display: flex;
+}
+.m__iconitos ul img {
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+}
+.m__anuncios {
+  display: flex;
+}
+.m__anuncios--1 {
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
